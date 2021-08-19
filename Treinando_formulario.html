@@ -1,0 +1,78 @@
+<meta charset="UTF-8">
+<script>
+    function mostra(frase) {
+        document.write(frase)
+        document.write('<br />')       
+}
+    var nome = (prompt("Digite seu Nome"));
+    var datadenasc = (prompt("Data de Nasc"));
+    var cep = (prompt("Cep"));
+    var sexo = (prompt("Sexo"));
+    var tel = (prompt("Qual seu telefone"));
+    var email = (prompt("Seu email"));
+    var estadocivc = (prompt("Estado Civil"));{
+
+        mostra(nome)
+        mostra(datadenasc)
+        mostra(cep)
+        mostra(sexo)
+        mostra(tel)
+        mostra(email)
+        mostra(estadocivc)
+    }
+    mostra("FIM");
+</script>
+
+<!--// sem loop
+function mostra(frase) {
+        document.write(frase)
+        document.write('<br />')       
+}
+ 
+var nome = (prompt("Digite o seu nome"))
+var email = (prompt("Digite o seu e-mail"))
+var sexo = (prompt("Digite o seu sexo"))
+var tel = (prompt("Digite o seu tel"))
+ 
+mostra(nome)
+mostra(email)
+mostra(sexo)
+mostra(tel)
+ 
+ 
+ 
+ 
+// com loop map
+function mostra(frases) {
+       
+        frases.map(function(frase) {
+                document.write(frase)
+                document.write('<br />')
+        })
+               
+}
+ 
+var nome = (prompt("Digite o seu nome"))
+var email = (prompt("Digite o seu e-mail"))
+var sexo = (prompt("Digite o seu sexo"))
+var tel = (prompt("Digite o seu tel"))
+ 
+mostra([nome, email, sexo, tel])
+ 
+ 
+ 
+ 
+// com loop for
+function mostra(frases) {      
+        for (var i = 0; i < frases.length; i++) {
+           document.write(frases[i])
+           document.write('<br />')
+        }              
+}
+ 
+var nome = (prompt("Digite o seu nome"))
+var email = (prompt("Digite o seu e-mail"))
+var sexo = (prompt("Digite o seu sexo"))
+var tel = (prompt("Digite o seu tel"))
+ 
+mostra([nome, email, sexo, tel])-->
